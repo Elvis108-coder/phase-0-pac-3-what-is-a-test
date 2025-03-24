@@ -36,3 +36,12 @@ describe('', () => {
     })
   })
 })
+
+const expect = require("expect"); 
+
+describe("Name", () => {
+  it("returns 'Susan'", () => {
+    const name = "Susan"; 
+    expect(name).toBe("Susan"); 
+  });
+});
